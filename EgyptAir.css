@@ -1,0 +1,369 @@
+#one {
+  margin-top: 5mm;
+  margin-left: 10mm;
+}
+
+.go {
+  color: white;
+  background-color: deeppink;
+  border-radius: 25px;
+  width: 2cm;
+}
+#dropdownMenuButton {
+  width: 2cm;
+  height: 2cm;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 13px;
+}
+#dropdownMenuButton:hover {
+  background-color: deeppink;
+  color: white;
+}
+.comp {
+  font-size: 13px;
+  color: black;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: absolute;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+div.dot2 {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 220px;
+  right: 120px;
+}
+
+.active {
+  background-color: deeppink;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p.texI {
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 100px;
+  left: 16px;
+  font-size: 7mm;
+}
+p.texI2 {
+  color: black;
+  position: absolute;
+  top: 240px;
+  left: 16px;
+  font-size: 6mm;
+}
+.book {
+  color: white;
+  background-color: deeppink;
+  border-radius: 25px;
+  width: 9cm;
+}
+.RB {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  position: absolute;
+
+  left: 500px;
+  font-size: 3mm;
+  height: 30mm;
+  width: 30mm;
+  top: 230px;
+}
+.RB1 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  position: absolute;
+
+  left: 630px;
+  font-size: 3mm;
+  height: 30mm;
+  width: 30mm;
+  top: 230px;
+}
+.RB2 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  position: absolute;
+
+  left: 760px;
+  font-size: 3mm;
+  height: 30mm;
+  width: 30mm;
+  top: 230px;
+}
+.RB3 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 890px;
+  font-size: 3mm;
+  height: 30mm;
+  width: 30mm;
+  top: 230px;
+}
+.RB:hover,
+.RB1:hover,
+.RB2:hover,
+.RB3:hover,
+.ss:hover {
+  background-color: blue;
+  color: white;
+}
+.after {
+  border-radius: 50%;
+  height: 30mm;
+  width: 30mm;
+  top: 230px;
+
+  font-size: 3mm;
+
+  background-color: blue;
+  color: white;
+  position: absolute;
+  left: 370px;
+}
+
+#nus {
+  background-color: gainsboro;
+}
+h.heade {
+  font-size: 1cm;
+  font-style: italic;
+}
+.u {
+  font-size: 3mm;
+  color: black;
+}
+.back {
+  width: 6mm;
+  height: 8mm;
+  position: absolute;
+  top: 440;
+}
+
+.s {
+  font-size: 3mm;
+}
+
+#two {
+  background-image: url(https://www.gavelintl.com/wp-content/uploads/2018/10/map-coffee-cup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  margin-left: -40px;
+}
+p.para {
+  font-size: 4mm;
+  color: white;
+}
+.t {
+  width: 50mm;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+.tg {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+  font-size: 5mm;
+  font-weight: bold;
+}
+.IM {
+  position: absolute;
+  bottom: -125px;
+  right: -68px;
+}
+.IM2 {
+  position: absolute;
+  bottom: -140px;
+  right: -25px;
+}
+.IMM {
+  position: absolute;
+  bottom: -76px;
+  right: -15px;
+}
+.IM22 {
+  position: absolute;
+  bottom: -92px;
+  right: 15px;
+}
+
+.header {
+  font-size: 4mm;
+  color: black;
+}
+.ss {
+  background-color: transparent;
+  border: none;
+}
+
+.IMM3 {
+  position: absolute;
+  bottom: -1px;
+  right: -50px;
+}
+.IM23 {
+  position: absolute;
+  bottom: -5px;
+  right: 20px;
+  font-size: 8mm;
+  color: white;
+}
+.gs {
+  position: absolute;
+  bottom: 68px;
+  right: -127px;
+}
+.gs2 {
+  position: absolute;
+  bottom: 50px;
+  right: -75px;
+  font-size: 8mm;
+  color: white;
+}
+
+.gsk {
+  position: absolute;
+  bottom: -27px;
+  right: -73px;
+}
+
+.gsk2 {
+  position: absolute;
+  bottom: -35px;
+  right: -45px;
+  font-size: 8mm;
+  color: white;
+}
+.las {
+  position: absolute;
+  bottom: -20px;
+  right: -140px;
+}
+.las2 {
+  position: absolute;
+  bottom: -35px;
+  right: -105px;
+  font-size: 8mm;
+  color: white;
+}
+.lb {
+  position: absolute;
+  bottom: -2px;
+  right: -97px;
+}
+.lb2 {
+  position: absolute;
+  bottom: -15px;
+  right: -65px;
+  font-size: 8mm;
+  color: white;
+}
+#lli {
+  background-image: url(https://cauldronsandcupcakes.com/wp-content/uploads/2016/07/plane-airplane-airliner-passenger-sky-sky-cumulus-clouds-clouds-flight-flight-aircraft-wing-wing-morning-bright-sun-beautiful-background-blur-bokeh-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  margin-left: -40px;
+}
+.lbb {
+  width: 13mm;
+  height: 13mm;
+  border-radius: 30%;
+  border: none;
+  background-color: #bbb;
+}
+.lbb:hover {
+  background-color: deeppink;
+}
+
+#lastDiv {
+  background-image: url(https://www.lifo.cz/out/pictures/z1/image_perfect_5756_z1.jpg);
+}
+
+.lh {
+  font-size: 5mm;
+  color: white;
+  font-weight: bold;
+}
+a.lp {
+  font-size: 3mm;
+  color: white;
+}
+#white {
+  color: white;
+  margin-left: 8mm;
+}
+#verticalLine {
+  border-left: thin solid white;
+}
+
+#tzbit {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.R {
+  font-size: 1mm;
+  color: white;
+}
+
+#lc {
+  font-size: 3mm;
+  color: white;
+  margin-left: 8mm;
+}
